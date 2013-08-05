@@ -6,41 +6,50 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
+        <!-- Add bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
+        <link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
+
+
     </head>
     <body>
-
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
-
-                {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
-            </div>
+      <div class="navbar">
+        <div class="navbar-inner">
+          <a class="brand" href="#">Michelle's Blog</a>
+          <ul class="nav pull-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="archive.html">Archive</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            {{ content }}
           </div>
-        </div> <!-- /container -->
+        </div>  
+      </div>
 
+
+      <footer>
+        <div class="navbar navbar-fixed-bottom">
+          <div class="navbar-inner">
+            <ul class="nav pull-right">
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="http://omfgdogs.com/">Copyright ©</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer><!-- Footer -->
+        <script src="js/bootstrap.js"></script>
     </body>
 </html>

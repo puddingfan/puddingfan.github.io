@@ -13,6 +13,7 @@
 html, body { height: 100%; }
 
 body {
+  background:url(/img/wood_texture_by_yasse_inne-d5eu9w2.jpg);
   background-color: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
@@ -47,6 +48,10 @@ ul.posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
+}
+
+ul.nav{
+  font-family: 'Maven Pro', sans-serif;
 }
 
 /*****************************************************************************/
@@ -96,7 +101,7 @@ ul.posts span {
 
 .site .footer {
   font-size: 80%;
-  color: #666;
+  color: #red;
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
