@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background:url(/img/wood_texture_by_yasse_inne-d5eu9w2.jpg);
-  background-color: #FFF;
+  background-color: transparent;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -50,8 +50,22 @@ ul.posts span {
   font-size: 80%;
 }
 
+.brand{
+  font-family: 'Codystar', cursive;
+}
+
 ul.nav{
   font-family: 'Maven Pro', sans-serif;
+}
+
+.navbar-inner{
+  background-image: none;
+  background-color: #FFF8D4;
+}
+
+.navbar.navbar-fixed-bottom .navbar-inner{
+  background-image: none;
+  background-color: #E4FFCF;
 }
 
 /*****************************************************************************/
