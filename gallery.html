@@ -2,3 +2,22 @@
 layout: default
 title: Michelle's Gallery
 ---
+<head>
+    <style>
+      #galleria{ width: 700px; height: 400px; background: #000 }
+    </style>
+</head>
+
+
+<body>
+  <div id="galleria">
+    <img src="img/images.jpeg">
+    <img src="img/images2.jpeg">
+    <img src="img/images3.jpg">
+  </div>
+    <script>
+      Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+      Galleria.run('#galleria');
+</script>
+
+</body>
