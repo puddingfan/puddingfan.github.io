@@ -74,6 +74,15 @@ ul.nav{
 /*
 /*****************************************************************************/
 
+.bio {
+  background-color: #FFF;
+  margin: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 10px;
+  text-align: left;
+}
+
 .site {
   font-size: 115%;
   text-align: justify;
@@ -146,6 +155,14 @@ ul.nav{
 /*
 /*****************************************************************************/
 
+.mainpost {
+  background-color: #FFF;
+  margin: 15px;
+  padding: 10px;
+  text-align: left;
+}
+}
+
 /* standard */
 .post pre {
   border: 1px solid #ddd;
@@ -176,4 +193,8 @@ ul.nav{
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+#galleria {
+  margin: 0px auto;
 }
